@@ -1,0 +1,415 @@
+.content {
+  padding: 20px;
+  border: 0.5px solid rgba(66, 42, 42, 0.6);
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  min-height: 60vh;
+}
+.sign-in-container {
+  position: relative;
+}
+.sign-in-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 16px; /* Adjust margin as needed */
+  margin-right: 16px; /* Adjust margin as needed */
+}
+.homeContent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeContent1,
+.homeContent2,
+.homeContent3 {
+  width: 30%;
+  border-radius: 10px;
+  padding: 20px;
+  border: 0.5px solid rgba(66, 42, 42, 0.6);
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .grids {
+  background-color: gray;
+} */
+#components-grid-demo-flex-align [class~="ant-row"] {
+  background: rgba(128, 128, 128, 0.08);
+}
+
+.boxes {
+  border-radius: 10px;
+  padding: 20px;
+  border: 0.5px solid rgba(66, 42, 42, 0.6);
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.height-100 {
+  height: 100px;
+}
+
+.height-50 {
+  height: 50px;
+}
+
+.height-200 {
+  height: 200px;
+}
+.height-120 {
+  height: 120px;
+}
+
+.height-270 {
+  height: 270px;
+}
+
+.review {
+  grid-area: review;
+}
+.time {
+  grid-area: time;
+}
+.holidays {
+  grid-area: holidays;
+}
+.quickAccess {
+  grid-area: quickAccess;
+}
+.payslip {
+  grid-area: payslip;
+}
+.itDeclaration {
+  grid-area: itDeclaration;
+}
+.track {
+  grid-area: track;
+}
+.poi {
+  grid-area: poi;
+}
+
+.homeContent > div {
+}
+.homeContent {
+  display: grid;
+  grid-template-areas:
+    "review review time time holidays holidays"
+    "review review time time holidays holidays"
+    "review review payslip payslip holidays holidays"
+    "quickAccess quickAccess payslip payslip itDeclaration itDeclaration"
+    "quickAccess quickAccess payslip payslip itDeclaration itDeclaration"
+    "poi poi payslip payslip track track";
+  gap: 10px;
+}
+
+.payslipContent {
+  display: flex;
+  justify-content: space-around;
+}
+.payslipContent .earnings {
+  width: 40%;
+}
+.payslipContent .deductions {
+  width: 30%;
+}
+.YTDReports {
+  display: flex;
+  justify-content: center;
+}
+.YTDContent {
+  text-align: start;
+}
+.YTDSumary {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.YTDStatementbtnActive {
+  border: 1px solid gray;
+  background-color: lightblue;
+  padding: 10px;
+}
+.YTDStatementbtnInactive {
+  border: 1px solid gray;
+  padding: 10px;
+}
+.taxcalculation {
+  font-size: 14px;
+}
+.itinfo {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  background-color: gray;
+}
+.taxcalculation {
+  min-height: 150px;
+}
+.leaveinfo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.radioActive {
+  background-color: blue;
+}
+.leavebalances {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.leaveinfo > .boxes {
+  width: 250px;
+}
+.holidays {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.holidays > .boxes {
+  width: 100%;
+}
+.yearlyholidays > .boxes {
+  width: 250px;
+}
+.workerstimeduration {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.timeduration > .boxes {
+  width: 200px;
+}
+
+/* home page styles copied from hrmsfrontendcustomers */
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: right;
+  align-items: center;
+  background-image: url("/assets/images/loginimage.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.leftColumn {
+  flex: 1;
+  background-color: #001529;
+  color: #ffffff;
+  background-size: cover;
+}
+
+.contentContainer {
+  padding: 30px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.imagesContainer {
+  display: flex;
+}
+
+.rightColumn {
+  flex: 0.29;
+  background-color: white;
+  opacity: 0.8;
+  padding: 30px;
+  display: flex;
+  margin: 0.2%;
+  border-radius: 25px;
+  border: 1px solid gray;
+  border-color: gray;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  /* opacity: 1; */
+}
+
+.loginContainer {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.loginTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.poweroff {
+  cursor: pointer;
+}
+.leaveapplycontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 60vh;
+  width: 80%;
+  /* align-items: start; */
+}
+.typeofleave {
+  width: 200px;
+}
+.leaveapplycontentdate {
+  width: 200px;
+}
+.leaverApplyContentstyle1 {
+  display: flex;
+}
+.leaverApplyContentstyle2 {
+  display: flex;
+}
+.itdeclare {
+  display: flex;
+  border-style: solid;
+}
+.LeavePendingTab {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.leavehistory {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.Restrictedholidays {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.PendingRestrictedholidays {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.Restrictedholidayshistory {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.LeaveCancel {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.Pendingleavecanceltab {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.Leavecancelhistorytab {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.Compensatoryleave {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.CompoffPending {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.CompoffHistory {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: lightgray;
+  padding: 10px;
+}
+.applybtn {
+  width: 20%;
+}
+.dezoitos {
+  color: #9e9e9e;
+}
+.applyLeaveButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layoutStyles{
+  /* background-color: #000!important; */
+  min-height: 100vh;
+  background-image: url("/assets/gif/snowfalling.gif");
+  display: flex;
+  /* align-items: center; */
+  min-width: 100vw;
+
+}
+.layoutContent{
+  padding: 0 24px;
+  min-height: 280;
+}
+.outerLayoutContent{
+  padding: 0 50px;
+  /* background-color: black; */
+}
+.layoutFooter{
+  background-color: transparent;
+  text-align: center;
+}
+.layoutHeader{
+  display: flex;
+  align-items: center;
+  /* margin-top: 40px; */
+  height: 120px;
+  background-color: transparent;
+}
+.layoutHeaderDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.layoutHeaderInnerDiv {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-between;
+    color: #9e9e9e; 
+}
+.innerLayoutContent {
+    padding: 24px 0;
+    background-color: #fff;
+    opacity: 0.9;
+
+}
+.headerIcons {
+  font-size: 20px;
+}

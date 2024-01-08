@@ -1,8 +1,0 @@
-/* Your custom CSS file or inline style */
-.custom_label {
-    overflow: hidden;
-    white-space: nowrap; /* This ensures that the label does not wrap by default */
-    text-overflow: ellipsis; /* Add ellipsis for long labels (optional) */
-    max-width: 100%; /* To prevent the label from overflowing the form item */
-  }
-  
